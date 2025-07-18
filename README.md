@@ -14,7 +14,9 @@ Esclarecer o papel do desenvolvedor COBOL em ambiente AS/400 (IBM i), suas difer
 | [📁 ILE COBOL e Enterprise COBOL](ile-cobol-enterprise-cobol/ile-cobol-enterprise-cobol.md) | Diferenças práticas entre ILE COBOL e Enterprise COBOL |
 | [📁 Manipulação de Arquivos PF/LF no COBOL do AS/400](pf-lf-no-cobol-do-as400/pf-lf-no-cobol-do-as400.md) | Manipulação de Arquivos PF/LF no COBOL do AS/400 |
 | [📁 Exemplos de EXEC SQL comparando IBM i e z/OS](exec-sql-ibmi-e-zos/exec-sql-ibmi-e-zos.md) | Exemplos de EXEC SQL comparando IBM i e z/OS |
- 
+| [📁 Processo de compilação e deploy em cada ambiente](compilacao-e-deploy/compilacao-e-deploy.md) | Processo de compilação e deploy em cada ambiente |
+
+Processo de compilação e deploy em cada ambiente
 ---
 
 ## 🔍 Objetivo
