@@ -106,5 +106,6 @@ Embora ambos usem COBOL como linguagem base, os ambientes IBM i e z/OS têm para
 🔹 Exemplos e diferenças de integração de EXEC SQL, preparador de statement e bindings nos dois DB2.
 
 📄 [IBM i Concepts Manual – Seção “ILE Concepts”](https://www.ibm.com/docs/en/i/7.5?topic=programming-ile-concepts)  
-🔹 Explica arquitetura do ILE, activation groups, binding directories, service programs e interação entre linguagens :contentReference[oaicite:2]{index=2}.
+🔹 Explica arquitetura do ILE, activation groups, binding directories, service programs e interação entre linguagens.
+
 ---
