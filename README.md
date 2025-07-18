@@ -17,6 +17,9 @@ Esclarecer o papel do desenvolvedor COBOL em ambiente AS/400 (IBM i), suas difer
 | [📁 Processo de compilação e deploy em cada ambiente](compilacao-e-deploy/compilacao-e-deploy.md) | Processo de compilação e deploy em cada ambiente |
 | [📁 Como migrar programas de um ambiente para outro](como-migrar-programas/como-migrar-programas.md) | Como migrar programas de um ambiente para outro |
 | [📁 Comandos CLP vs JCL](comandos-clp-vs-jcl/comandos-clp-vs-jcl.md) | Comandos CLP vs JCL |
+| [📁 Papel do DBA no z/OS x IBM i](papel-do-dba/papel-do-dba.md) | Papel do DBA no z/OS x IBM i: Similaridades, diferenças e quando cada perfil é necessário |
+
+ 
  
 ---
 
