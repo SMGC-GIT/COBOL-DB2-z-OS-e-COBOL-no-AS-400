@@ -15,8 +15,9 @@ Esclarecer o papel do desenvolvedor COBOL em ambiente AS/400 (IBM i), suas difer
 | [📁 Manipulação de Arquivos PF/LF no COBOL do AS/400](pf-lf-no-cobol-do-as400/pf-lf-no-cobol-do-as400.md) | Manipulação de Arquivos PF/LF no COBOL do AS/400 |
 | [📁 Exemplos de EXEC SQL comparando IBM i e z/OS](exec-sql-ibmi-e-zos/exec-sql-ibmi-e-zos.md) | Exemplos de EXEC SQL comparando IBM i e z/OS |
 | [📁 Processo de compilação e deploy em cada ambiente](compilacao-e-deploy/compilacao-e-deploy.md) | Processo de compilação e deploy em cada ambiente |
+| [📁 Como migrar programas de um ambiente para outro](como-migrar-programas/como-migrar-programas.md) | Como migrar programas de um ambiente para outro |
 
-Processo de compilação e deploy em cada ambiente
+ 
 ---
 
 ## 🔍 Objetivo
