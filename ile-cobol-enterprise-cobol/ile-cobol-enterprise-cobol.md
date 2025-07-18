@@ -93,21 +93,19 @@ Embora ambos usem COBOL como linguagem base, os ambientes IBM i e z/OS têm para
 
 ## 8. Fontes Oficiais e Links Diretos
 
-📄 [IBM ILE COBOL Programmer's Guide – IBM i 7.5](https://www.ibm.com/docs/en/i/7.5?topic=programs-compiling-running-debugging-ile-cobol)  
-🔹 Capítulo: *Compiling, Running, and Debugging ILE COBOL Programs*  
-🔹 Detalha estrutura de programa COBOL, chamadas interlinguagem, compilação e execução com `CRTBNDCBL`
+📄 [IBM ILE COBOL Programmer's Guide – Capítulo “Compiling, Running, and Debugging ILE COBOL Programs” (IBM i 7.5)](https://www.ibm.com/docs/en/i/7.5?topic=programs-compiling-running-debugging-ile-cobol)  
+🔹 Estrutura de programas COBOL, chamadas entre linguagens via ILE e exemplos de compilação com `CRTBNDCBL`, `CRTPGM`.
 
-📄 [IBM Enterprise COBOL for z/OS Documentation – v6.4](https://www.ibm.com/docs/en/cobol-zos/6.4?topic=programs-cobol-programs)  
-🔹 Seção: *COBOL Programs*  
-🔹 Explica como estruturar programas COBOL no z/OS, opções de compilação e uso de recursos modernos
+📄 [IBM Enterprise COBOL for z/OS 6.4 – Seção “Structuring your program”](https://www.ibm.com/docs/en/cobol-zos/6.4.0?topic=program-structuring-your)  
+🔹 Detalhes sobre as divisões de um programa COBOL (IDENTIFICATION, ENVIRONMENT, DATA, PROCEDURE), configurações de link e chamadas de subprogramas :contentReference[oaicite:1]{index=1}.
 
-📄 [Diferenças entre ambientes ILE e z/OS – IBM Developer](https://developer.ibm.com/articles/ibm-i-vs-zos/)  
-🔹 Artigo técnico da IBM que compara arquitetura, compilação, runtime e práticas entre IBM i e z/OS
+📄 [IBM Developer – Comparação entre ambientes IBM i (ILE) e z/OS](https://developer.ibm.com/articles/ibm-i-vs-zos/)  
+🔹 Análise de arquitetura, runtime, vinculação e práticas comuns nos dois ambientes (COBOL, compilação, banco de dados).
 
-📄 [Using DB2 with COBOL on IBM i vs z/OS – IBM Support](https://www.ibm.com/support/pages/node/6460413)  
-🔹 Documento oficial com exemplos e diferenças de uso do DB2 com COBOL em cada plataforma
+📄 [IBM Support – Using DB2 with COBOL on IBM i vs z/OS](https://www.ibm.com/support/pages/node/6460413)  
+🔹 Exemplos e diferenças de integração de EXEC SQL, preparador de statement e bindings nos dois DB2.
 
-📄 [ILE Concepts – IBM i Concepts Manual](https://www.ibm.com/docs/en/i/7.5?topic=programming-ile-concepts)  
-🔹 Seção: *ILE Concepts*  
-🔹 Explica a arquitetura do ILE, binding, runtime e integração entre linguagens (COBOL, CL, RPG, C)
+📄 [IBM i Concepts Manual – Seção “ILE Concepts”](https://www.ibm.com/docs/en/i/7.5?topic=programming-ile-concepts)  
+🔹 Explica arquitetura do ILE, activation groups, binding directories, service programs e interação entre linguagens :contentReference[oaicite:2]{index=2}.
+
 ---
