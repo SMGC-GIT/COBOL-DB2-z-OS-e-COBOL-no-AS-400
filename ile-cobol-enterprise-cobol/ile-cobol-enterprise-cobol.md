@@ -24,11 +24,17 @@
 ## 1. Introdução
 Neste tópico, apresentamos um comparativo direto e prático entre as duas principais variantes do COBOL em ambientes corporativos: **ILE COBOL** (usado no IBM i, antigo AS/400) e **Enterprise COBOL** (usado no IBM z/OS). Entender essas diferenças ajuda na interoperabilidade, portabilidade de aplicações e na escolha adequada de recursos em cada plataforma.
 
+---
+
 ## 2. O que é o ILE COBOL no IBM i (AS/400)
 O **ILE COBOL** (Integrated Language Environment COBOL) faz parte do sistema operacional **IBM i** e é uma implementação moderna do COBOL voltada ao paradigma modular do ILE. Ele permite interoperabilidade entre linguagens como C, RPG e CL, com recursos como *binding directories*, *service programs* e *activation groups*.
 
+---
+
 ## 3. O que é o Enterprise COBOL no z/OS
 O **Enterprise COBOL** é o compilador COBOL da IBM para o ambiente z/OS, amplamente utilizado em mainframes. Ele é otimizado para integração com **DB2**, **CICS**, **IMS**, e **z/OS UNIX**, com suporte a *features* modernas como **JSON/XML parsing**, **multithreading** e **DFHEIBLK** para CICS.
+
+---
 
 ## 4. Principais Diferenças Práticas
 
@@ -66,23 +72,42 @@ O **Enterprise COBOL** é o compilador COBOL da IBM para o ambiente z/OS, amplam
 - **ILE:** PDM, SEU, RDi, ACS
 - **Enterprise COBOL:** ISPF, SDSF, Debug Tool, IDz
 
+---
+
 ## 5. Considerações de Performance
 - **Enterprise COBOL** possui compiladores otimizados para performance em ambientes transacionais (CICS/DB2).
 - **ILE COBOL** favorece **resposta rápida e modularidade**, principalmente em aplicações interativas.
+
+---
 
 ## 6. Compatibilidade e Portabilidade
 - O código COBOL básico é semelhante, mas a portabilidade **exige ajustes em chamadas ao sistema, arquivos e banco**.
 - O uso de *COPYBOOKs*, arquivos e vinculação é muito específico por plataforma.
 
+---
+
 ## 7. Conclusão
 Embora ambos usem COBOL como linguagem base, os ambientes IBM i e z/OS têm paradigmas, ferramentas e abordagens diferentes. Conhecer essas diferenças permite melhor gestão de projetos, migrações e integração entre plataformas.
 
+---
+
 ## 8. Fontes Oficiais e Links Diretos
 
-- 📄 [IBM ILE COBOL Programmer's Guide – IBM i 7.5](https://www.ibm.com/docs/en/i/7.5?topic=cobol-ile-cobol-programmers-guide)
-- 📄 [IBM Enterprise COBOL for z/OS Documentation – v6.4](https://www.ibm.com/docs/en/SS6SG3_6.4.0/)
-- 📄 [Diferenças entre ambientes ILE e z/OS – IBM Developer](https://developer.ibm.com/articles/au-ile/)
-- 📄 [Using DB2 with COBOL on IBM i vs z/OS – IBM Support](https://www.ibm.com/support/pages/db2-cobol-differences-ibm-i-vs-zos)
-- 📄 [ILE Concepts – IBM i Concepts Manual](https://www.ibm.com/docs/en/i/7.5?topic=ile-concepts)
+📄 [IBM ILE COBOL Programmer's Guide – IBM i 7.5](https://www.ibm.com/docs/en/i/7.5?topic=programs-compiling-running-debugging-ile-cobol)  
+🔹 Capítulo: *Compiling, Running, and Debugging ILE COBOL Programs*  
+🔹 Detalha estrutura de programa COBOL, chamadas interlinguagem, compilação e execução com `CRTBNDCBL`
 
+📄 [IBM Enterprise COBOL for z/OS Documentation – v6.4](https://www.ibm.com/docs/en/cobol-zos/6.4?topic=programs-cobol-programs)  
+🔹 Seção: *COBOL Programs*  
+🔹 Explica como estruturar programas COBOL no z/OS, opções de compilação e uso de recursos modernos
+
+📄 [Diferenças entre ambientes ILE e z/OS – IBM Developer](https://developer.ibm.com/articles/ibm-i-vs-zos/)  
+🔹 Artigo técnico da IBM que compara arquitetura, compilação, runtime e práticas entre IBM i e z/OS
+
+📄 [Using DB2 with COBOL on IBM i vs z/OS – IBM Support](https://www.ibm.com/support/pages/node/6460413)  
+🔹 Documento oficial com exemplos e diferenças de uso do DB2 com COBOL em cada plataforma
+
+📄 [ILE Concepts – IBM i Concepts Manual](https://www.ibm.com/docs/en/i/7.5?topic=programming-ile-concepts)  
+🔹 Seção: *ILE Concepts*  
+🔹 Explica a arquitetura do ILE, binding, runtime e integração entre linguagens (COBOL, CL, RPG, C)
 ---
