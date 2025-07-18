@@ -21,7 +21,7 @@ Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor
 
 ---
 
-## 👨‍💻 Quem atua como COBOL Developer no AS/400
+## Quem atua como COBOL Developer no AS/400
 
 ### 🎯 Perfil profissional:
 - Desenvolve, mantém e moderniza sistemas legados em **ILE COBOL** no sistema **IBM i (antigo AS/400)**.
@@ -31,7 +31,7 @@ Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor
 
 ---
 
-## 🧩 Similaridades entre COBOL + DB2 z/OS e COBOL no AS/400
+## Similaridades entre COBOL + DB2 z/OS e COBOL no AS/400
 
 | Aspecto                       | z/OS (Mainframe)                            | AS/400 (IBM i)                               | Similaridade                                                                 |
 |------------------------------|---------------------------------------------|----------------------------------------------|------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor
 
 ---
 
-## ❌ Diferencas entre COBOL no z/OS e no AS/400
+## Diferencas entre COBOL no z/OS e no AS/400
 
 | Aspecto                    | z/OS (Mainframe)                                        | AS/400 (IBM i)                                         |
 |---------------------------|----------------------------------------------------------|--------------------------------------------------------|
@@ -60,7 +60,7 @@ Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor
 
 ---
 
-## 🧠 Consideracoes Tecnicas
+## Consideracoes Tecnicas
 
 ### Sobre o COBOL em AS/400
 
@@ -78,7 +78,7 @@ Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor
 
 ---
 
-## 🔄 Transicao entre ambientes
+## Transicao entre ambientes
 
 | Item a estudar para quem vem do z/OS e vai ao AS/400 |
 |-------------------------------------------------------|
@@ -91,7 +91,7 @@ Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor
 
 ---
 
-## ✅ Conclusao
+## Conclusao
 
 | Pontos-chave para lembrar |
 |---------------------------|
@@ -102,7 +102,7 @@ Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor
 
 ---
 
-## 📚 Fontes e Documentacao Oficial
+## Fontes e Documentacao Oficial
 
 - 🔗 [IBM i 7.5 – ILE COBOL Programmer's Guide: Estrutura de Programas COBOL](https://www.ibm.com/docs/en/i/7.5?topic=guide-program-structure-in-ile-cobol)  
 - 🔗 [IBM i 7.5 – Comandos SQL suportados no STRSQL](https://www.ibm.com/docs/en/i/7.5?topic=functions-sql-statements-supported-by-strsql)  
