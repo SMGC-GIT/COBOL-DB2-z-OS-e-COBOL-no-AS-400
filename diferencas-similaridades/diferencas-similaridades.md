@@ -116,6 +116,28 @@ Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor
 
 ---
 
+## 📚 Fontes e Documentação Oficial
+
+- 🔗 [IBM i 7.5 – ILE COBOL Programmer's Guide (introdução e estrutura de programa)](https://www.ibm.com/docs/en/i/7.5?topic=guide-program-structure-in-ile-cobol)
+  
+- 🔗 [IBM i 7.5 – DB2 for i: Comandos SQL suportados no STRSQL](https://www.ibm.com/docs/en/i/7.5?topic=functions-sql-statements-supported-by-strsql)
+
+- 🔗 [IBM i 7.5 – Conceito de arquivos físicos (PF) e lógicos (LF)](https://www.ibm.com/docs/en/i/7.5?topic=ssw_ibm_i_75/rzarl/rzarlpdf.htm)
+
+- 🔗 [Enterprise COBOL for z/OS – Visão geral e comparação com versões anteriores](https://www.ibm.com/docs/en/cobol-zos/6.4?topic=overview)
+
+- 🔗 [DB2 for z/OS – Introdução ao SQL embutido (Embedded SQL)](https://www.ibm.com/docs/en/db2-for-zos/12?topic=programs-using-embedded-sql)
+
+- 🔗 [DB2 for z/OS – Tipos de tabelas, índices e partições](https://www.ibm.com/docs/en/db2-for-zos/12?topic=structures-types-tables-indexes)
+
+- 🔗 [JCL – IBM z/OS MVS JCL Reference (Introdução e comandos básicos)](https://www.ibm.com/docs/en/zos/2.5.0?topic=overview-job-control-language)
+
+- 🔗 [IBM i – Comandos CL (CLP): referência completa](https://www.ibm.com/docs/en/i/7.5?topic=reference-cl-command)
+
+- 🔗 [IBM i – WRKACTJOB (Work with Active Jobs)](https://www.ibm.com/docs/en/i/7.5?topic=ssw_ibm_i_75/cl/wrkactjob.htm)
+
+---
+
 📎 **Próximos tópicos sugeridos para aprofundamento:**
 - Diferenças práticas entre ILE COBOL e Enterprise COBOL
 - Manipulação de arquivos PF/LF no COBOL do AS/400
