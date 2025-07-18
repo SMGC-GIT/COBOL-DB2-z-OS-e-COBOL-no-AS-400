@@ -115,3 +115,12 @@ Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor
 - 🔗 [IBM i – WRKACTJOB: Monitoramento de Jobs ativos](https://www.ibm.com/docs/en/i/7.5?topic=ssw_ibm_i_75/cl/wrkactjob.htm)  
 
 ---
+
+📎 **Próximos tópicos sugeridos para aprofundamento:**
+- Diferenças práticas entre ILE COBOL e Enterprise COBOL
+- Manipulação de arquivos PF/LF no COBOL do AS/400
+- Exemplos de `EXEC SQL` comparando IBM i e z/OS
+- Processo de compilação e deploy em cada ambiente
+- Como migrar programas de um ambiente para outro
+
+---
