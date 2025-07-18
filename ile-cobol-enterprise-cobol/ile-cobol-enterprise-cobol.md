@@ -107,5 +107,4 @@ Embora ambos usem COBOL como linguagem base, os ambientes IBM i e z/OS têm para
 
 📄 [IBM i Concepts Manual – Seção “ILE Concepts”](https://www.ibm.com/docs/en/i/7.5?topic=programming-ile-concepts)  
 🔹 Explica arquitetura do ILE, activation groups, binding directories, service programs e interação entre linguagens :contentReference[oaicite:2]{index=2}.
-
 ---
