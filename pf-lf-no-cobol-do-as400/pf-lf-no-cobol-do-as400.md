@@ -9,7 +9,10 @@
 - [5. Declaração no COBOL: SELECT e FD](#5-declaração-no-cobol-select-e-fd)
 - [6. Comandos COBOL para Arquivos PF/LF](#6-comandos-cobol-para-arquivos-pflf)
 - [7. Considerações de Performance](#7-considerações-de-performance)
-- [8. Fontes Oficiais e Links Diretos](#8-fontes-oficiais-e-links-diretos)
+- [8. Considerações sobre Locking, Buffer e Concurrency](#8-consideracoes-sobre-locking-buffe-e-concurrency)
+- [9. Diferenças para o ambiente z/OS](#9-diferencas-para-o-ambiente-z-os)
+- [10. Boas Práticas e Cuidados](#10-boas-praticas-e-cuidados)
+- [11. Fontes Oficiais e Links Diretos](#11-fontes-oficiais-e-links-diretos)
 
 ---
 
@@ -113,6 +116,7 @@ CLOSE ARQUIVO-CLIENTE.
 
 ---
 
+
 ## 7. Considerações de Performance
 
 - LF bem desenhados com chaves otimizadas melhoram muito a performance de busca via READ KEY.
@@ -121,7 +125,38 @@ CLOSE ARQUIVO-CLIENTE.
 
 ---
 
-## 8. Fontes Oficiais e Links Diretos
+## 8. Considerações sobre Locking, Buffer e Concurrency
+
+- Ao abrir um arquivo em modo `I-O`, registros podem ser bloqueados automaticamente.
+- Usar o parâmetro `USING LOCK MODE` (ou definir via DDS).
+- O sistema IBM i pode usar buffering avançado, especialmente em acesso SEQUENCIAL.
+- Recomenda-se atenção com simultaneidade em ambientes com múltiplos jobs.
+
+---
+
+## 9. Diferenças para o ambiente z/OS
+
+| Característica        | AS/400 (IBM i)                  | z/OS                             |
+|-----------------------|----------------------------------|----------------------------------|
+| Sistema de Arquivos   | Integrado, nativo               | VSAM, datasets                   |
+| Definição externa     | DDS (ou DDL com SQL moderno)    | JCL + Catalog/DCLGEN             |
+| Interface com COBOL   | Direta com SELECT/ASSIGN        | COPY/INCLUDE de estruturas VSAM  |
+| Locking/Sharing       | Controlado pelo sistema         | Necessário uso explícito         |
+
+---
+
+## 10. Boas Práticas e Cuidados
+
+- Verifique sempre a existência do arquivo com comandos CL (e.g. `DSPFD`, `WRKOBJ`)
+- Use nomes de arquivos consistentes entre DDS e SELECT no COBOL
+- Prefira leitura SEQUENCIAL com CHAVE definida para grandes volumes
+- Em programas com escrita e leitura, abra o arquivo em modo `I-O`
+- Monitore o uso de `LOCK` em ambientes concorrentes para evitar deadlocks
+
+---
+
+
+## 11. Fontes Oficiais e Links Diretos
 
 - [📄 Manipulating Database Files with COBOL on IBM i (IBM Documentation)](https://www.ibm.com/docs/en/i/7.5?topic=programs-manipulating-database-files-cobol)
 - [📄 ILE COBOL Programmer's Guide – Working with Database Files](https://www.ibm.com/docs/en/i/7.5?topic=guide-working-database-files)
