@@ -12,9 +12,9 @@ Esclarecer o papel do desenvolvedor COBOL em ambiente AS/400 (IBM i), suas difer
 |--------|-----------|
 | [📁 Entendendo Diferenças e Similaridades](diferencas-similaridades/diferencas-similaridades.md) | Entender diferenças e similaridades COBOL + DB2 (z/OS | AS/400) |
 | [📁 ILE COBOL e Enterprise COBOL](ile-cobol-enterprise-cobol/ile-cobol-enterprise-cobol.md) | Diferenças práticas entre ILE COBOL e Enterprise COBOL |
+| [📁 Manipulação de Arquivos PF/LF no COBOL do AS/400](pf-lf-no-cobol-do-as400/pf-lf-no-cobol-do-as400.md) | Manipulação de Arquivos PF/LF no COBOL do AS/400 |
 
-
-
+Manipulação de Arquivos PF/LF no COBOL do AS/400
 ---
 
 ## 🔍 Objetivo
