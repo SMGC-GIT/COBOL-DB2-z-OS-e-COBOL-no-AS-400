@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 Introducao
+## Introducao
 
 Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor COBOL que atua no ambiente **AS/400 (IBM i)** e aquele que atua no **z/OS (Mainframe)**, abordando **semelhanças, diferenças, tecnologias associadas** e pontos de interseção entre os dois universos.
 
