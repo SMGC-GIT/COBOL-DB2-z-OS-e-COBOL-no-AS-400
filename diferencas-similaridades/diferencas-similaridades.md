@@ -1,5 +1,20 @@
 # 👨‍💻 COBOL Developer em AS/400 (IBM i) vs z/OS (Mainframe)
 
+## 📑 Índice
+
+- [Introdução](#introdução)
+- [Quem atua como COBOL Developer no AS/400](#quem-atua-como-cobol-developer-no-as400)
+- [Similaridades entre COBOL + DB2 z/OS e COBOL no AS/400](#similaridades-entre-cobol--db2-zos-e-cobol-no-as400)
+- [Diferenças entre COBOL no z/OS e no AS/400](#diferenças-entre-cobol-no-zos-e-no-as400)
+- [Considerações Técnicas](#considerações-técnicas)
+  - [Sobre o COBOL em AS/400](#sobre-o-cobol-em-as400)
+  - [Sobre o DB2 no AS/400](#sobre-o-db2-no-as400)
+- [Transição entre ambientes](#transição-entre-ambientes)
+- [Conclusão](#conclusão)
+- [Fontes e Documentação Oficial](#fontes-e-documentação-oficial)
+
+---
+
 ## 📌 Introdução
 
 Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor COBOL que atua no ambiente **AS/400 (IBM i)** e aquele que atua no **z/OS (Mainframe)**, abordando **semelhanças, diferenças, tecnologias associadas** e pontos de interseção entre os dois universos.
@@ -82,6 +97,22 @@ Este documento apresenta um comparativo detalhado entre o papel do desenvolvedor
 | 🏛️ z/OS é mais tradicional em bancos; AS/400 é mais comum em empresas de menor porte |
 | 📚 O conhecimento em um ambiente ajuda na curva de aprendizado do outro |
 | 💡 Há grande demanda por quem conhece os dois mundos, especialmente para **modernização de legados** |
+
+---
+
+## 📚 Fontes e Documentação Oficial
+
+- 🔗 IBM Documentation – **IBM i 7.5 ILE COBOL Programmer's Guide**  
+  https://www.ibm.com/docs/en/i/7.5?topic=languages-ile-cobol
+
+- 🔗 IBM Documentation – **Enterprise COBOL for z/OS Documentation**  
+  https://www.ibm.com/docs/en/cobol-zos/latest
+
+- 🔗 IBM Documentation – **Db2 for i SQL Reference**  
+  https://www.ibm.com/docs/en/i/7.5?topic=db2-sql-reference
+
+- 🔗 IBM Documentation – **Db2 for z/OS Concepts**  
+  https://www.ibm.com/docs/en/db2-for-zos/12?topic=overview-db2-zos-concepts
 
 ---
 
